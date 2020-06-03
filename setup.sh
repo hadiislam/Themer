@@ -26,10 +26,10 @@ clear
 #Logo
 figlet CAT | lolcat
 echo                        
-echo -e $B"   [$R*$B] By-$Y Hadi Islam"
+echo $B"   [$R*$B] By-$Y Hadi Islam"
 echo
 echo
-echo -e $R" What is Your Banner Name : "
+echo $R" What is Your Banner Name : "
 read varbanner
 echo
 echo "figlet ' $varbanner' | lolcat" > cbanner.txt
@@ -45,15 +45,12 @@ cat "echo2.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 #theme
 
-if [ ! -d $HOME/.termux ]; then
-mkdir $HOME/.termux
-fi
-
 cd
 $HOME
+rm -rf .termux
+mkdir .termux
 cd Themer
 cd core
 cp colors.properties ~/.termux
 cd
-clear
-echo -e $G" Please Restart Termux "
+echo $G" Please Restart Termux "

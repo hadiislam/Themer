@@ -24,13 +24,7 @@ cd
 clear
 
 #Logo
-
-echo
-echo -e $G"   .aMMMb  .aMMMb dMMMMMMP"
-echo -e $G"  dMP"VMP dMP"dMP   dMP   "   
-echo -e $G" dMP     dMMMMMP   dMP    "  
-echo -e $G"dMP.aMP dMP dMP   dMP     "  
-echo -e $G"VMMMP" dMP dMP   dMP      "  
+figlet CAT | lolcar
 echo                        
 echo -e $B"   [$R*$B] By-$Y Hadi Islam"
 echo

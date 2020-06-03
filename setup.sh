@@ -1,0 +1,65 @@
+#Require
+apt install -y figlet ruby
+gem install lolcat
+clear
+#colors
+R='\033[1;31m'
+B='\033[1;34m'
+C='\033[0;36m'
+G='\033[1;32m'
+W='\033[1;37m'
+Y='\033[1;33m'
+cy='\033[36m'
+
+
+#bash inject
+
+cd
+rm -rf /data/data/com.termux/files/usr/etc/bash.bashrc
+cd
+cd Themer
+cd core
+cp bash.bashrc /data/data/com.termux/files/usr/etc
+cd
+clear
+
+#Logo
+
+echo
+echo -e $G"   .aMMMb  .aMMMb dMMMMMMP"
+echo -e $G"  dMP"VMP dMP"dMP   dMP   "   
+echo -e $G" dMP     dMMMMMP   dMP    "  
+echo -e $G"dMP.aMP dMP dMP   dMP     "  
+echo -e $G"VMMMP" dMP dMP   dMP      "  
+echo                        
+echo -e $B"   [$R*$B] By-$Y Hadi Islam"
+echo
+echo
+echo -e $R" What is Your Banner Name : "
+read varbanner
+echo
+echo "figlet ' $varbanner' | lolcat" > cbanner.txt
+echo "echo" > echo1.txt
+echo "date | lolcat" > cdate.txt
+echo "echo" > echo2.txt
+
+cat "cbanner.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+cat "echo1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+cat "cdate.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+cat "echo2.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+
+
+#theme
+
+if [ ! -d $HOME/.termux ]; then
+mkdir $HOME/.termux
+fi
+
+cd
+$HOME
+cd Themer
+cd core
+cp colors.properties ~/.termux
+cd
+clear
+echo -e $G" Please Restart Termux "

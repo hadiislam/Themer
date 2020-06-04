@@ -34,7 +34,7 @@ echo $B"[$R*$B] By-$Y Hadi Islam"
 echo
 echo
 echo $R" What is Your Banner Name : "
-read varbanner
+read -p"[Write Your Name] : " varbanner
 echo
 echo "figlet ' $varbanner' | lolcat" > cbanner.txt
 echo "echo" > echo1.txt

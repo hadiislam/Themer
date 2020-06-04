@@ -35,7 +35,7 @@ clear
 #Logo
 figlet Themer | lolcat
 echo                        
-echo $G"[$W*$G]$BBy-$Y Hadi Islam"
+echo $G"[$W*$G]$B By-Hadi Islam"
 echo
 echo
 read -p"[Write Your Name]: " varbanner

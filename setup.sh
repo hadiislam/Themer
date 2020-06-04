@@ -1,11 +1,6 @@
 #Made By Hadi Islam
 #Made in Bangladesh With ❤
 
-
-#Require
-apt install -y figlet ruby
-gem install lolcat
-clear
 #colors
 R='\033[1;31m'
 B='\033[1;34m'
@@ -32,9 +27,15 @@ figlet Themer | lolcat
 echo                        
 echo $B"[$R*$B] By-$Y Hadi Islam"
 echo
+
+#Require
+
+echo "$G Installing Requirements...."
+apt install -y figlet ruby
+gem install lolcat
+echo ""
 echo
-echo $R"What is Your Banner Name : "
-read -p"[Write Your Name] : " varbanner
+read -p"$B[$GWrite Your Name$B]$G :$W " varbanner
 echo
 echo "figlet ' $varbanner' | lolcat" > cbanner.txt
 echo "echo" > echo1.txt
@@ -60,4 +61,4 @@ cd Themer
 cd core
 cp colors.properties ~/.termux
 cd
-echo $G"Please Restart Termux "
+echo $G"...Please Restart Termux... "

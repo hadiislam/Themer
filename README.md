@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-      All In One Termux Tools
+      Make Termux Beautiful
 </p>
 
 <p align="center">

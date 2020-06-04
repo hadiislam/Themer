@@ -10,6 +10,16 @@ W='\033[1;37m'
 Y='\033[1;33m'
 cy='\033[36m'
 
+#Require
+
+echo "$G Installing Requirements...."
+echo
+apt update
+apt upgrade -y
+apt install -y figlet ruby
+gem install lolcat
+echo ""
+clear
 
 #bash inject
 
@@ -27,15 +37,8 @@ figlet Themer | lolcat
 echo                        
 echo $B"[$R*$B] By-$Y Hadi Islam"
 echo
-
-#Require
-
-echo "$G Installing Requirements...."
-apt install -y figlet ruby
-gem install lolcat
-echo ""
 echo
-read -p"$B[$GWrite Your Name$B]$G :$W " varbanner
+read -p"$B"[$GWrite Your Name$B]"$G :$W " varbanner
 echo
 echo "figlet ' $varbanner' | lolcat" > cbanner.txt
 echo "echo" > echo1.txt

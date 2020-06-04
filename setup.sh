@@ -24,7 +24,7 @@ cd
 clear
 
 #Logo
-figlet CAT | lolcat
+figlet Themer | lolcat
 echo                        
 echo $B"[$R*$B] By-$Y Hadi Islam"
 echo

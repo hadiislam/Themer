@@ -54,3 +54,12 @@ After run the script..
 - Write your name
 
 - Restart Termux
+
+------------------------------------------------------------------------
+
+### Uninstall
+
+To uninstall Themer
+
+* `sh remove.sh`
+

@@ -1,3 +1,7 @@
+#Made By Hadi Islam
+#Made in Bangladesh With ❤
+
+
 #Require
 apt install -y figlet ruby
 gem install lolcat

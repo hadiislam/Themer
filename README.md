@@ -52,6 +52,6 @@ Open the terminal and type following commands.
 
 After run the script..
 
-*Write your name
+- Write your name
 
-*Restart Termux
+- Restart Termux

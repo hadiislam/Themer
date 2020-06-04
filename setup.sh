@@ -68,3 +68,6 @@ cd
 echo $B"...........DONE............."
 echo
 echo $G"...Please Restart Termux... "
+echo
+echo
+echo

@@ -60,4 +60,4 @@ cd Themer
 cd core
 cp colors.properties ~/.termux
 cd
-echo $G" Please Restart Termux "
+echo $G"Please Restart Termux "

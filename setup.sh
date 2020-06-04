@@ -26,7 +26,7 @@ clear
 #Logo
 figlet CAT | lolcat
 echo                        
-echo $B"   [$R*$B] By-$Y Hadi Islam"
+echo $B"[$R*$B] By-$Y Hadi Islam"
 echo
 echo
 echo $R" What is Your Banner Name : "
@@ -41,7 +41,11 @@ cat "cbanner.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 cat "echo1.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 cat "cdate.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 cat "echo2.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-
+cd
+rm cbanner.txt
+rm echo1.txt
+rm cdate.txt
+rm echo2.txt
 
 #theme
 

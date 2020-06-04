@@ -4,4 +4,4 @@ command_not_found_handle() {
 
 #PS1
 
-PS1='/ $'
+PS1='\$'

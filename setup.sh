@@ -38,7 +38,7 @@ echo
 echo $B"[$R*$B] By-$Y Hadi Islam"
 echo
 echo
-read -p"$B"[$GWrite Your Name$B]"$G :$W " varbanner
+read -p"$B[$GWrite Your Name$B]$G :$W " varbanner
 echo
 echo "figlet ' $varbanner' | lolcat" > cbanner.txt
 echo "echo" > echo1.txt

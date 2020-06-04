@@ -50,7 +50,6 @@ rm echo2.txt
 #theme
 
 cd
-$HOME
 rm -rf .termux
 mkdir .termux
 cd Themer

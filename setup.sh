@@ -8,7 +8,6 @@ C='\033[0;36m'
 G='\033[1;32m'
 W='\033[1;37m'
 Y='\033[1;33m'
-cy='\033[36m'
 
 #Require
 
@@ -37,9 +36,9 @@ figlet Themer | lolcat
 echo
 date | lolcat
 echo                        
-echo $G"[$W*$G]$B Made By Hadi Islam"
+echo $G"Made By Hadi Islam"
 echo
-echo
+echo $C""
 read -p"[Write Your Name]: " varbanner
 echo
 echo "figlet ' $varbanner' | lolcat" > cbanner.txt

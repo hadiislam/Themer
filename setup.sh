@@ -35,10 +35,10 @@ clear
 #Logo
 figlet Themer | lolcat
 echo                        
-echo $B"[$R*$B] By-$Y Hadi Islam"
+echo $G"[$W*$G]$BBy-$Y Hadi Islam"
 echo
 echo
-read -p"$B[$G Write Your Name $B] $G:$W " varbanner
+read -p"[Write Your Name]: " varbanner
 echo
 echo "figlet ' $varbanner' | lolcat" > cbanner.txt
 echo "echo" > echo1.txt
@@ -64,4 +64,6 @@ cd Themer
 cd core
 cp colors.properties ~/.termux
 cd
+echo $B"...........DONE............."
+echo
 echo $G"...Please Restart Termux... "

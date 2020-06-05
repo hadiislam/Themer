@@ -7,9 +7,17 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/darksecdevelopers"><img title="Open Source Love" src="https://badges.frapsoft.com/os/v2/open-source.png?v=103" ></a>
-  <a href="https://github.com/DarkSecDevelopers/HiddenEye/releases"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0&x2=0" ></a>
+<a href="https://github.com/hadiislam"><img title="Author" src="https://img.shields.io/badge/Author-Hadi-red.svg?style=for-the-badge&logo=github"></a>
+<a href="#"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green?style=for-the-badge"></a>
 </p>
+<p align="center">
+<a href="#"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
+<a href="https://github.com/hadiislam/followers"><img title="Followers" src="https://img.shields.io/github/followers/hadiislam?color=blue&style=flat-square"></a>
+<a href="https://github.com/hadiislam/Themer/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/hadiislam/Themer?color=red&style=flat-square"></a>
+<a href="https://github.com/hadiislam/Themer/network/members"><img title="Forks" src="https://img.shields.io/github/forks/hadiislam/Themer?color=red&style=flat-square"></a>
+<a href="https://github.com/hadiislam/Themer/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/hadiislam/Themer?label=Watchers&color=blue&style=flat-square"></a>
+</p>
+
 <br>
 
 <p align="centre">

@@ -32,7 +32,7 @@ Themer was developed for Termux only.
 
 <br>
 <p align="center">
-<img width="40%" src="core/themer.png"/>
+<img width="100%" height="50%" src="core/themer.png"/>
 </p>
 
 ------------------------------------------------------------------------

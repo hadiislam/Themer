@@ -41,7 +41,7 @@ Themer was developed for Termux only.
 
 Open the terminal and type following commands.
 
-* `apt update`
+* `apt update && apt upgrade`
 
 * `apt install git`
 
